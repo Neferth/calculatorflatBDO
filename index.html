@@ -9,19 +9,18 @@
 </head>
 <body>
   <h1>Calculateur de Compétence</h1>
-  <form id="calculator">
-    <label>AP de Base (C2) : <input type="number" id="C2" required></label>
-    <label>Multiplicateur de Compétence (C4) : <input type="number" id="C4" required></label>
-    <label>Attaques Multiples (C5) : <input type="number" id="C5"></label>
-    <label><input type="checkbox" id="B5"> Utiliser C5 ?</label>
-    <label>Multiplicateur Secondaire (C8) : <input type="number" id="C8"></label>
-    <label>Nombre Max Y Hits (C7) : <input type="number" id="C7"></label>
-    <label><input type="checkbox" id="B7"> Utiliser C7 ?</label>
-    <label>Buff Multiplicateur (C9) : <input type="number" id="C9"></label>
-    <label><input type="checkbox" id="B9"> Utiliser C9 ?</label>
-    <button type="button" onclick="calculate()">Calculer</button>
-  </form>
-  <div class="result" id="result">Résultat : </div>
+<form id="calculator">
+  <label>AP de Base (C2) : <input type="number" id="C2" required></label>
+  <label>Multiplicateur de Compétence (C4) : <input type="number" id="C4" required></label>
+  <label>Attaques Multiples (C5) : <input type="number" id="C5"></label>
+  <label><input type="checkbox" id="B5"> Utiliser C5 ?</label>
+  <label>Nombre Max Y Hits (C7) : <input type="number" id="C7"></label>
+  <label><input type="checkbox" id="B7"> Utiliser C7 ?</label>
+  <label>Buff Multiplicateur (C9) : <input type="number" id="C9"></label>
+  <label><input type="checkbox" id="B9"> Utiliser C9 ?</label>
+  <button type="button" onclick="calculate()">Calculer</button>
+</form>
+<div class="result" id="result">Résultat : </div>
 
   <!-- Inclusion du fichier JavaScript -->
   <script src="script.js"></script>
